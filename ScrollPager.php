@@ -74,6 +74,9 @@ class ScrollPager extends Widget
      */
     public $item = '.item';
 
+    public $linkContainerOptions =[];
+    public $linkOptions = [];
+    public $disabledListItemSubTagOptions = [];
     /**
      * @var string $paginationSelector Enter the selector of the element containing the pagination.
      */
